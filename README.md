@@ -574,8 +574,8 @@ rag.query("哪些品种被称为红茶？", param=QueryParam(mode="global", only
 所以GraphRAG项目文件仅仅传入3个文档便止步了。
 
 ### LightRAG项目文件
-在LightRAG项目文件夹下，output文件夹存储着最新生成的索引文件，同时Backup文件夹存储着历史索引文件。  
-目前已传入超过600条条目文档数据。
+在LightRAG项目文件夹下，output文件夹存储着最新生成的索引文件，因为存储原因，output文件暂不保存。  
+
 
 ### Ragas项目文件
 在Ragas项目文件夹下，存放着尝试使用``ragas``库自动生成RAG评分数据集的notebook文件，以及生成出的测试数据。  
